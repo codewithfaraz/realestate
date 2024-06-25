@@ -1,4 +1,9 @@
 import HeroImage from "../../../../public/Images/HeroImage.png";
+import DreamHomeIcon from "../../../../public/Images/dream-home-icon.png";
+import EfortlessIcon from "../../../../public/Images/effortless-property-icon.png";
+import SmartInvestmentIcon from "../../../../public/Images/smart-investment-icon.png";
+import UnlockPropertyIcon from "../../../../public/Images/unlock-property-icon.png";
+import RotatedArrow from "../../../../public/Images/rotated-arrow-icon.png";
 import Image from "next/image";
 export default function Hero() {
   return (
@@ -26,12 +31,12 @@ export default function Hero() {
               <p className="text-gray60">Happy Customers</p>
             </div>
             <div className="bg-black border-2 border-dark rounded-lg px-8 py-5 flex-1">
-              <h1 className="text-white text-4xl font-semibold">200+</h1>
-              <p className="text-gray60">Happy Customers</p>
+              <h1 className="text-white text-4xl font-semibold">10K+</h1>
+              <p className="text-gray60">Properties for client</p>
             </div>
             <div className="bg-black border-2 border-dark rounded-lg px-8 py-5 flex-1  text-center md:text-left">
-              <h1 className="text-white text-4xl font-semibold">200+</h1>
-              <p className="text-gray60">Happy Customers</p>
+              <h1 className="text-white text-4xl font-semibold">16+</h1>
+              <p className="text-gray60">Years of experience</p>
             </div>
           </div>
         </div>
@@ -39,9 +44,35 @@ export default function Hero() {
           <Image
             src={HeroImage}
             alt=""
-            width={700}
+            width={730}
             className=" border-2 border-dark bg-black md:bg-none rounded-lg md:rounded-none"
           />
+        </div>
+      </div>
+      <div className="flex flex-wrap bg-black container mx-auto md:gap-2 md:py-2 py-1  gap-1 justify-center border-2 border-gray-500 rounded-md">
+        <div className="space-y-2 relative flex flex-col md:w-1/5 bg-dark items-center py-7 rounded-md px-2 w-1/3">
+          <Image src={DreamHomeIcon} alt="" width={24} />
+          <p className="text-white text-sm max-w-xs text-center">
+            Find Your Dream Home
+          </p>
+        </div>
+        <div className="space-y-2 relative flex flex-col md:w-1/5 bg-dark items-center py-7 px-2 rounded-md w-1/3">
+          <Image src={UnlockPropertyIcon} alt="" width={24} />
+          <p className="text-white text-sm max-w-xs text-center">
+            Unlock Property Value
+          </p>
+        </div>
+        <div className="space-y-2 relative flex flex-col md:w-1/5 bg-dark items-center py-7 px-2 rounded-md w-1/3">
+          <Image src={EfortlessIcon} alt="" width={24} />
+          <p className="text-white text-sm max-w-xs text-center">
+            Effortless Property Management
+          </p>
+        </div>
+        <div className="space-y-2 relative flex flex-col md:w-1/5 bg-dark items-center py-7 px-2 rounded-md w-1/3">
+          <Image src={SmartInvestmentIcon} alt="" width={24} />
+          <p className="text-white text-sm max-w-xs text-center">
+            Smart Investment, informed decisions
+          </p>
         </div>
       </div>
     </section>
