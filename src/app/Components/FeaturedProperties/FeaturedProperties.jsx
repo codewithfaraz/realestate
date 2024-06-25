@@ -1,7 +1,8 @@
 import Property from "./Property";
-import Image1 from "../../../../public/Images/FeaturedProperties/image1.png";
-import Image2 from "../../../../public/Images/FeaturedProperties/image2.png";
-import Image3 from "../../../../public/Images/FeaturedProperties/image3.png";
+
+import Image1 from "./image1.png";
+import Image2 from "./image2.png";
+import Image3 from "./image3.png";
 export default function FeaturedProperties() {
   return (
     <section id="featuredproperties">
