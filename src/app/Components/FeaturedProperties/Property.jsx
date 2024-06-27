@@ -4,7 +4,7 @@ import BadroomIcon from "../../../../public/Images/Icons/bedroom-icon.png";
 import VillaIcon from "../../../../public/Images/Icons/villa-icon.png";
 export default function Property(props) {
   return (
-    <div id="property" className="flex">
+    <div id="property" className="flex glide__slide">
       <div className="flex p-6  flex-col bg-black rounded-lg space-y-6">
         <Image src={props.img} alt="" width={600} />
         <div className="flex flex-col">

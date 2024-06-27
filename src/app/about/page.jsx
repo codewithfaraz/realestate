@@ -1,3 +1,4 @@
+import Hero from "../Components/About/Hero";
 export default function About() {
-  return;
+  return <Hero />;
 }

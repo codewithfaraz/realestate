@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav id="navbar">
@@ -11,12 +12,15 @@ export default function Navbar() {
         </div>
         {/* navbar */}
         <div className="md:flex hidden space-x-6 items-center">
-          <a href="/" className="bg-black border-2 border-dark p-3 rounded-lg">
+          <Link
+            href="/"
+            className="bg-black border-2 border-dark p-3 rounded-lg"
+          >
             Home
-          </a>
-          <a href="/">About Us</a>
-          <a href="/">Services</a>
-          <a href="/">Properties</a>
+          </Link>
+          <Link href="/about">About Us</Link>
+          <Link href="/">Services</Link>
+          <Link href="/">Properties</Link>
         </div>
         <button className="hidden md:block bg-black border-2 border-dark p-3 rounded-lg">
           Contact Us
