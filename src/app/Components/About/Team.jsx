@@ -28,7 +28,7 @@ export default function Team() {
               <p className="text-gray60">Founder</p>
             </div>
             <div className="flex bg-black border-[1px] items-center w-full rounded-full justify-between px-4 py-2">
-              <p className="text-white">Say Hello</p>
+              <p className="text-white">{`Say Hello \u{1F44B}`}</p>
               <a href="" className="  bg-purple60 rounded-2xl p-1">
                 <Image src={SendIcon} width={30} />
               </a>
@@ -47,7 +47,7 @@ export default function Team() {
               <p className="text-gray60">Chief Real Estate Officer</p>
             </div>
             <div className="flex bg-black border-[1px] items-center w-full rounded-full justify-between px-4 py-2">
-              <p className="text-white">Say Hello</p>
+              <p className="text-white">{`Say Hello \u{1F44B}`}</p>
               <a href="" className="  bg-purple60 rounded-2xl p-1">
                 <Image src={SendIcon} width={30} />
               </a>
@@ -66,7 +66,7 @@ export default function Team() {
               <p className="text-gray60">Head of Property Management</p>
             </div>
             <div className="flex bg-black border-[1px] items-center w-full rounded-full justify-between px-4 py-2">
-              <p className="text-white">Say Hello</p>
+              <p className="text-white">{`Say Hello \u{1F44B}`}</p>
               <a href="" className="  bg-purple60 rounded-2xl p-1">
                 <Image src={SendIcon} width={30} />
               </a>
@@ -85,7 +85,7 @@ export default function Team() {
               <p className="text-gray60">Founder</p>
             </div>
             <div className="flex bg-black border-[1px] items-center w-full rounded-full justify-between px-4 py-2">
-              <p className="text-white">Say Hello</p>
+              <p className="text-white">{`Say Hello \u{1F44B}`}</p>
               <a href="" className="  bg-purple60 rounded-2xl p-1">
                 <Image src={SendIcon} width={30} />
               </a>
