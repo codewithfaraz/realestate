@@ -1,6 +1,6 @@
-import StarIcon from "../../../public/Images/Icons/star-icon.png";
-import ExcellenceIcon from "../../../public/Images/Icons/excellence-icon.png";
-import ClientIcon from "../../../public/Images/Icons/client-icon.png";
+import StarIcon from "../../../../public/Images/Icons/star-icon.png";
+import ExcellenceIcon from "../../../../public/Images/Icons/excellence-icon.png";
+import ClientIcon from "../../../../public/Images/Icons/client-icon.png";
 import Image from "next/image";
 export default function Values() {
   return (
